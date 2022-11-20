@@ -1,0 +1,34 @@
+[
+  {
+    "desc": "Peluche perfecto para cualquier mascota",
+    "id": "P001",
+    "img": "https://ae03.alicdn.com/kf/H5360bf03c5944541ae085c6674d4574cG.jpg",
+    "edition": 2022,
+    "name": "Peluche",
+    "price": 5.950
+  },
+  {
+    "desc": "Hueso de plástico  utilizado por perros y gatos",
+    "id": "P002",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_881590-MLC48240480836_112021-O.jpg",
+    "edition": 2022,
+    "name": "Hueso Plástico",
+    "price": 7.250
+  },
+  {
+    "desc": "Para que tu mascota se divierta mucho más",
+    "id": "P003",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_858266-MLC43739978954_102020-O.jpg",
+    "edition":2022,
+    "name": "Pelota con sonido",
+    "price": 5.990
+  },
+  {
+    "desc": "Especialmente para gatos",
+    "id": "P005",
+    "img": "https://cf.shopee.cl/file/284279c830a8f525757697c19a25ca5e",
+    "edition": 2020,
+    "name": "Tunel para Gatos",
+    "price": 6.450
+  }
+]

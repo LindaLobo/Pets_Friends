@@ -1,0 +1,219 @@
+.banner {
+  background-image: URL('https://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2022/01/dog-paw-prints-coloring-page.png');
+  height: 300px;
+  margin-bottom: 80px;
+}
+
+.color-title{
+  color: rgb(201, 19, 110)
+}
+.imagenHero {
+  width: 400px;
+  transform: rotate(-5deg);
+}
+
+.ofertas{
+  color: rgb(201, 19, 110) ;
+  display: inherit;
+  margin-top: 200px;
+  font-size: medium;
+  padding-top: 10px;
+  background-color: rgb(247, 248, 247);
+  border-radius: 10px;
+}
+
+.text-hero{
+  color:rgb(36, 155, 46);
+  text-decoration: none;
+  margin: 10px;
+  }
+
+p {
+  padding-top: 10px;
+}
+
+.imagenes {
+  width: 210px;
+  height: 200px;
+  border-color: black;
+  margin: 10px
+}
+
+.navbar {
+  background: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  color:rgb(211, 42, 126)
+}
+
+.newcard {
+  border: 1px solid #c9c7c7;
+  padding: 20px;
+}
+
+.img-detalle {
+  height: 80%;
+  width: 80%;
+}
+
+.detalle-size {
+  width: 50%;
+}
+
+.detalle-size>h6 {
+  width: 90%;
+  text-align: justify;
+}
+
+.top {
+  margin-top: 5%;
+}
+
+.detalle-font {
+  font-family: fantasy
+}
+
+.detalle-title {
+
+  text-decoration: underline;
+
+}
+
+.text-nav{
+color:rgb(211, 42, 126);
+text-decoration: none;
+margin: 10px;
+}
+
+.titulo {
+  margin: 20px;
+  color: blue;
+  width: 900px;
+  font-family: cursive;
+  margin: 3px;
+}
+
+#carouselExampleIndicators {
+ background: palegreen;
+}
+
+/*Carousel css*/
+.carousel-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-wrapper {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-content-wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-content {
+  display: flex;
+  transition: all 250ms linear;
+  -ms-overflow-style: none;  /* hide scrollbar in IE and Edge */
+  scrollbar-width: none;  /* hide scrollbar in Firefox */
+}
+
+/* hide scrollbar in webkit browser */
+.carousel-content::-webkit-scrollbar, .carousel-content::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-content > * {
+  width: 100%;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.carousel-content.show-2 > * {
+  width: 50%;
+}
+
+.carousel-content.show-3 > * {
+  width: calc(100% / 3);
+}
+
+.carousel-content.show-4 > * {
+  width: calc(100% / 4);
+}
+
+.left-arrow, .right-arrow {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.left-arrow {
+  left: 24px;
+}
+
+.right-arrow {
+  right: 24px;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .left-arrow, .right-arrow {
+      display: none;
+  }
+}
+
+.conocenos {
+  text-align: center;
+  margin-top: 100px;
+  font-family: cursive;
+}
+
+.conocenos-texto {
+  text-align: justify;
+  font-family: cursive;
+  margin: 3px;
+}
+
+.form {
+  background: mediumpurple;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.fieldset {
+  margin: 160px;
+}
+
+.img-registro {
+  width: 80%;
+  transform: rotate(10deg);
+  height: 70%;
+  margin-top: 65px;
+}
+
+.registro {
+  margin-top: 200px;
+}
+
+.correoForm {
+  color: white;
+  background-color: mediumpurple;
+  font-size: large;
+}
+
+.claveForm {
+  color: white;
+  background-color: mediumpurple;
+  font-size: large;
+  
+}
